@@ -1,0 +1,24 @@
+This is an HID example that demonstrates Human Interface Device (HID)
+on USB Device.
+
+Detailed description is available on:
+www.keil.com/pack/doc/MW/USB/html/dev_hid_tutorial.html
+
+Board:                  NXP 'LPCXpresso5411x'
+Microcontroller:        NXP  'LPC54114'
+Clock Settings:         IRC                  =  12 MHz
+                        CPU                  = 100 MHz
+
+User Interface (USB):   inputs:  SW1, SW2 and SW3
+                        outputs: RGB LED
+
+The example demonstrates a Human Interface Device. The board LEDs and 
+push buttons can be accessed from the PC through a custom 
+HID Client Program (.\ARM\Utilities\HID_Client\Release\HIDClient.exe).
+
+The program is available for target(s):
+
+  - LPC54114 Flash: Downloads to and executes from internal Flash
+
+NOTE:
+  - 3.3V power supply must be selected (with JP9)

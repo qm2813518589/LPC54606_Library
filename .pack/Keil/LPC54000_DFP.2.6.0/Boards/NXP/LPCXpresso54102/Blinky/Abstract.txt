@@ -1,0 +1,22 @@
+The 'Blinky' project is a simple demo program for
+NXP 'LPC54102' microcontroller using NXP 'LPCXpresso54102' Evaluation Board.
+Compliant to Cortex Microcontroller Software Interface Standard (CMSIS).
+
+Example functionality:
+ - Clock Settings:
+   - IRC     =  12 MHz
+   - CPU     = 100 MHz  (96MHz for chip revision 1B, 1C) 
+
+ - 3 LEDs blink with a fixed speed
+
+
+The Blinky program is available in different targets:
+
+  LPC54102 Flash:       runs from on-chip Flash
+                        (used for production or target debugging)
+
+  LPC54102 RAM:         runs from on-chip RAM
+                        (used for target debugging)
+
+  LPC54102 SWO:         runs from on-chip Flash
+                        (configured for exception trace & SWO)

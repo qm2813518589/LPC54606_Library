@@ -1,0 +1,2 @@
+This is a emWin Graphic Library Demo for the LPC54114 microcontroller using 
+Keil 'MCB54110' Evaluation Board with Ampire 240320LG LCD.

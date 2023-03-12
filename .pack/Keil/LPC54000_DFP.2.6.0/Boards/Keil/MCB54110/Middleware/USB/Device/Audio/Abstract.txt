@@ -1,0 +1,24 @@
+This is an Audio example that demonstrates
+Audio Device Class (ADC) on USB Device.
+
+Board:                  Keil 'MCB54110'
+Microcontroller:        NXP  'LPC54114'
+
+Microphone:             Mono DMIC on Board
+Speakers:               Stereo on "AUDIO OUT" and Speaker
+
+When MCB54110 Board is attached to PC (USB micro connector),
+"Keil USB Audio" device will appear. Sounds played on PC, will be
+streamed through USB to the board, which will output the sound to Audio
+out contector (AUDIO_OUT) and also Speaker. When Sound recording application
+is started on PC, data recorded with On-board digital microphone, will be
+streamed through USB to PC. Sound controls on PC are available for
+controlling the on-board codec, like mute, volume increase, volume decrease,...
+
+The program is available for target(s):
+
+  - LPC54114 Flash: Downloads to and executes from internal Flash
+
+
+NOTE:
+  - 3.3V power supply must be selected (with VDD_LPC jumper)

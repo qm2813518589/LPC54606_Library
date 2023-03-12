@@ -1,0 +1,27 @@
+The 'CM4 Blinky' project is part of a simple CMSIS-RTOS DualCore example for
+NXP 'LPC54114' microcontroller using NXP 'LPCXpresso54114' Evaluation Board.
+Compliant to Cortex Microcontroller Software Interface Standard (CMSIS).
+
+This example demonstrates how to configure a dual core application project
+in order to use Cortex-M0+ core together with the Cortex-M4 core.
+
+Example functionality:
+ - Clock Settings:
+   - IRC     =  12 MHz
+   - CPU     = 100 MHz 
+
+ - CM4 synchronizes via mailbox with CM0+
+ - CM4 passes LED state via mailbox to CM0+
+ - CM0+ switches LEDs according LED state
+
+
+The CM4 Blinky program is available for target:
+
+  LPC54114 Flash:      configured for on-chip Flash
+                       (used for production or target debugging)
+Note:
+   CM0+ application must be build first using CM0+ project.
+   CM0+ application is flashed together with CM4 application from CM4 project.
+   CM4 application configures CM0+ stack pointer and reset vector and release CM0+ core from reset.
+
+

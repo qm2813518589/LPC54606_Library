@@ -1,0 +1,20 @@
+The 'RTX_Blinky' project is a simple CMSIS RTOS Kernel based example for
+NXP 'LPC54608' microcontroller using NXP 'LPCXpresso54608' Evaluation Board.
+Compliant to Cortex Microcontroller Software Interface Standard (CMSIS).
+
+Example functionality:
+ - Clock Settings:
+   - IRC     =  12 MHz
+   - CPU     =  96 MHz 
+
+ - 3 LEDs blinks with a fixed speed, determined by SysTick Timer working in interrupt mode.
+ - blinking is paused while holding down a button (SW2 .. SW5).
+
+
+The Blinky program is available in different targets:
+
+  LPC54608 Flash:   configured for on-chip Flash
+                    (used for production or target debugging)
+
+  LPC54608 RAM:     runs from Internal RAM located on chip
+                    (may be used for target debugging)

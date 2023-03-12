@@ -1,0 +1,453 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.3.193/W32 for ARM                  06/Mar/2021  09:24:15
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Exe\SeekFree_LPC546XX.out.tmp
+#    Map file     =  
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\List\SeekFree_LPC546XX.map
+#    Command line =  
+#        -f C:\Users\zwl\AppData\Local\Temp\EW39EE.tmp
+#        (D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\assert.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\common.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\isr.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\LPC546XX_adc.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\LPC546XX_ctimer.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\LPC546XX_dma.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\LPC546XX_eeprom.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\LPC546XX_flexcomm.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\LPC546XX_gint.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\LPC546XX_gpio.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\LPC546XX_iic.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\LPC546XX_iocon.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\LPC546XX_mrt.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\LPC546XX_pint.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\LPC546XX_pit.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\LPC546XX_pll.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\LPC546XX_sct.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\LPC546XX_spi.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\LPC546XX_systick.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\LPC546XX_uart.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\main.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\misc.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\SEEKFREE_18TFT.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\SEEKFREE_7725.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\SEEKFREE_FONT.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\SEEKFREE_FUN.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\SEEKFREE_ICM20602.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\SEEKFREE_IIC.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\SEEKFREE_IPS114_SPI.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\SEEKFREE_IPS200_PARALLEL8.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\SEEKFREE_L3G4200D.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\SEEKFREE_MMA8451.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\SEEKFREE_MPU6050.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\SEEKFREE_MT9V032.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\SEEKFREE_NRF24L01.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\SEEKFREE_OLED.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\SEEKFREE_PRINTF.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\SEEKFREE_VIRSCO.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\startup_LPC54606.o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj\system_LPC54606.o
+#        --no_out_extension -o
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Exe\SeekFree_LPC546XX.out.tmp
+#        --map
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\List\SeekFree_LPC546XX.map
+#        --config
+#        D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\SeekFree_LPC546XX.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x7'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 4K, alignment = 8 { };
+"P3":  place in [from 0x400'0000 to 0x400'7fff] { block CSTACK, block HEAP };
+"P4":  place in [from 0x0 to 0x0] |
+                [from 0x2000'0000 to 0x2002'7fff] { rw };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  ro section application_specific_ro  in "P2|P5"
+  rw section application_specific_rw  in "P2|P5"
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x124
+  .intvec            ro code          0x0   0x124  startup_LPC54606.o [1]
+                                  - 0x124   0x124
+
+"P1":                                      0x1e18
+  .text              ro code        0x124   0x570  LPC546XX_uart.o [1]
+  .text              ro code        0x694    0x64  LPC546XX_iocon.o [1]
+  .text              ro code        0x6f8    0x18  assert.o [1]
+  .text              ro code        0x710   0x110  LPC546XX_flexcomm.o [1]
+  .text              ro code        0x820     0x8  SEEKFREE_FUN.o [1]
+  .text              ro code        0x828   0x32c  SEEKFREE_PRINTF.o [1]
+  .text              ro code        0xb54    0x3a  DblToS32.o [3]
+  .text              ro code        0xb8e    0x3a  zero_init3.o [4]
+  .text              ro code        0xbc8    0x2e  DblCmpLe.o [3]
+  .text              ro code        0xbf6     0x2  startup_LPC54606.o [1]
+  .text              ro code        0xbf8    0x22  S32ToDbl.o [3]
+  .text              ro code        0xc1a     0x2  startup_LPC54606.o [1]
+  .text              ro code        0xc1c    0xe2  DblSub.o [3]
+  .text              ro code        0xcfe     0x2  startup_LPC54606.o [1]
+  .text              ro code        0xd00   0x1a2  DblMul.o [3]
+  .text              ro code        0xea2     0x2  startup_LPC54606.o [1]
+  .text              ro code        0xea4   0x16a  DblAdd.o [3]
+  .text              ro code       0x100e     0x2  startup_LPC54606.o [1]
+  .text              ro code       0x1010   0x48c  LPC546XX_pll.o [1]
+  .text              ro code       0x149c   0x20c  LPC546XX_adc.o [1]
+  .text              ro code       0x16a8    0x44  LPC546XX_systick.o [1]
+  .text              ro code       0x16ec   0x180  isr.o [1]
+  .text              ro code       0x186c    0x1c  LPC546XX_gpio.o [1]
+  .text              ro code       0x1888   0x108  SEEKFREE_MT9V032.o [1]
+  .text              ro code       0x1990    0x68  system_LPC54606.o [1]
+  .rodata            const         0x19f8    0x54  LPC546XX_flexcomm.o [1]
+  .rodata            const         0x1a4c    0x54  LPC546XX_iocon.o [1]
+  .rodata            const         0x1aa0    0x54  LPC546XX_systick.o [1]
+  .rodata            const         0x1af4    0x50  LPC546XX_adc.o [1]
+  .rodata            const         0x1b44    0x50  LPC546XX_uart.o [1]
+  .rodata            const         0x1b94    0x38  system_LPC54606.o [1]
+  .rodata            const         0x1bcc    0x34  assert.o [1]
+  .text              ro code       0x1c00    0x2c  copy_init3.o [4]
+  .text              ro code       0x1c2c    0x28  data_init.o [4]
+  .text              ro code       0x1c54    0x22  fpinit_M.o [3]
+  .iar.init_table    const         0x1c78    0x24  - Linker created -
+  .text              ro code       0x1c9c     0x2  startup_LPC54606.o [1]
+  .text              ro code       0x1ca0    0x1e  cmain.o [4]
+  .text              ro code       0x1cbe     0x4  low_level_init.o [2]
+  .text              ro code       0x1cc2     0xc  main.o [1]
+  .text              ro code       0x1cce     0x4  exit.o [2]
+  .text              ro code       0x1cd4     0xa  cexit.o [4]
+  .text              ro code       0x1ce0    0x14  exit.o [5]
+  .text              ro code       0x1cf4    0x1c  startup_LPC54606.o [1]
+  .text              ro code       0x1d10     0xc  startup_LPC54606.o [1]
+  .text              ro code       0x1d1c     0xc  cstartup_M.o [4]
+  .text              ro code       0x1d28     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1d30     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1d38     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1d40     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1d48     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1d50     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1d58     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1d60     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1d68     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1d70     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1d78     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1d80     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1d88     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1d90     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1d98     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1da0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1da8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1db0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1db8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1dc0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1dc8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1dd0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1dd8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1de0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1de8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1df0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1df8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e00     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e08     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e10     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e18     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e20     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e28     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e30     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e38     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e40     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e48     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e50     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e58     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e60     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e68     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e70     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e78     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e80     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e88     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e90     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1e98     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1ea0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1ea8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1eb0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1eb8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1ec0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1ec8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1ed0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1ed8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x1ee0     0x8  startup_LPC54606.o [1]
+  .rodata            const         0x1ee8     0x0  zero_init3.o [4]
+  .rodata            const         0x1ee8     0x0  copy_init3.o [4]
+  Initializer bytes  const         0x1ee8    0x54  <for P4 s0>
+                                 - 0x1f3c  0x1e18
+
+"P3":                                      0x2000
+  CSTACK                       0x400'0000  0x2000  <Block>
+    CSTACK           uninit    0x400'0000  0x2000  <Block tail>
+                             - 0x400'2000  0x2000
+
+"P4", part 1 of 2:                           0x54
+  P4 s0                       0x2000'0000    0x54  <Init block>
+    .data            inited   0x2000'0000    0x28  LPC546XX_flexcomm.o [1]
+    .data            inited   0x2000'0028    0x28  LPC546XX_uart.o [1]
+    .data            inited   0x2000'0050     0x2  LPC546XX_pll.o [1]
+    .data            inited   0x2000'0052     0x1  SEEKFREE_MT9V032.o [1]
+                            - 0x2000'0054    0x54
+
+"P4", part 2 of 2:                         0x5ba0
+  .bss               zero     0x2000'0054  0x5820  SEEKFREE_MT9V032.o [1]
+  .bss               zero     0x2000'5a00   0x1e0  LPC546XX_dma.o [1]
+  .bss               zero     0x2000'5be0     0x4  isr.o [1]
+  .bss               zero     0x2000'5be4     0x4  isr.o [1]
+  .bss               zero     0x2000'5be8     0x4  isr.o [1]
+  .bss               zero     0x2000'5bec     0x4  SEEKFREE_MT9V032.o [1]
+  .bss               zero     0x2000'5bf0     0x2  isr.o [1]
+  .bss               zero     0x2000'5bf2     0x1  SEEKFREE_MT9V032.o [1]
+  .bss               zero     0x2000'5bf3     0x1  SEEKFREE_MT9V032.o [1]
+                            - 0x2000'5bf4  0x5ba0
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0x1f3c     0x7'ffff  0x7'e0c4
+   0x400'2000   0x400'7fff    0x6000
+  0x2000'5bf4  0x2002'7fff  0x2'240c
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x5ba0:
+          0x2000'0054  0x5ba0
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x54 (101% of destination):
+               0x1ee8    0x54
+    1 destination range, total size 0x53:
+          0x2000'0000    0x53
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+command line/config:
+    ----------------------------------------------
+    Total:
+
+D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj: [1]
+    LPC546XX_adc.o           524       80
+    LPC546XX_dma.o                             480
+    LPC546XX_flexcomm.o      272      124       40
+    LPC546XX_gpio.o           28
+    LPC546XX_iocon.o         100       84
+    LPC546XX_pll.o         1 164        2        2
+    LPC546XX_systick.o        68       84
+    LPC546XX_uart.o        1 392      120       40
+    SEEKFREE_FUN.o             8
+    SEEKFREE_MT9V032.o       264        1   22 567
+    SEEKFREE_PRINTF.o        812
+    assert.o                  24       52
+    isr.o                    384                14
+    main.o                    12
+    startup_LPC54606.o       792
+    system_LPC54606.o        104       56
+    ----------------------------------------------
+    Total:                 5 948      603   23 143
+
+dl7M_tln.a: [2]
+    exit.o                     4
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                     8
+
+m7M_tls.a: [3]
+    DblAdd.o                 362
+    DblCmpLe.o                46
+    DblMul.o                 418
+    DblSub.o                 226
+    DblToS32.o                58
+    S32ToDbl.o                34
+    fpinit_M.o                34
+    ----------------------------------------------
+    Total:                 1 178
+
+rt7M_tl.a: [4]
+    cexit.o                   10
+    cmain.o                   30
+    copy_init3.o              44
+    cstartup_M.o              12
+    data_init.o               40
+    zero_init3.o              58
+    ----------------------------------------------
+    Total:                   194
+
+shb_l.a: [5]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Gaps                       6        2      396
+    Linker created                     37    8 192
+--------------------------------------------------
+    Grand Total:           7 354      642   31 731
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base        0x1c78           --   Gb  - Linker created -
+.iar.init_table$$Limit       0x1c9c           --   Gb  - Linker created -
+?main                        0x1ca1          Code  Gb  cmain.o [4]
+CSTACK$$Base             0x400'0000           --   Gb  - Linker created -
+CSTACK$$Limit            0x400'2000           --   Gb  - Linker created -
+DMA0_DriverIRQHandler        0x1785    0x10  Code  Gb  isr.o [1]
+FLEXCOMM0_DriverIRQHandler
+                             0x16ff    0x2a  Code  Gb  isr.o [1]
+FLEXCOMM5_DriverIRQHandler
+                             0x1795    0x2e  Code  Gb  isr.o [1]
+FLEXCOMMN               0x2000'0000    0x28  Data  Gb  LPC546XX_flexcomm.o [1]
+GINT0_DriverIRQHandler       0x16ed    0x12  Code  Gb  isr.o [1]
+HardFault_Handler            0x19c7     0xa  Code  Gb  system_LPC54606.o [1]
+MRT0_DriverIRQHandler        0x17c3    0x52  Code  Gb  isr.o [1]
+M_divider                    0x129d    0x7e  Code  Gb  LPC546XX_pll.o [1]
+NMI_Handler                  0x19c5     0x2  Code  Gb  system_LPC54606.o [1]
+N_divider                    0x119b    0x88  Code  Gb  LPC546XX_pll.o [1]
+PIN_INT0_DriverIRQHandler
+                             0x176d    0x10  Code  Gb  isr.o [1]
+PIN_INT7_DriverIRQHandler
+                             0x177d     0x8  Code  Gb  isr.o [1]
+P_divider                    0x1223    0x7a  Code  Gb  LPC546XX_pll.o [1]
+RIT_DriverIRQHandler         0x1729    0x44  Code  Gb  isr.o [1]
+Region$$Table$$Base          0x1c78           --   Gb  - Linker created -
+Region$$Table$$Limit         0x1c9c           --   Gb  - Linker created -
+SysTick_Handler              0x1815     0xa  Code  Gb  isr.o [1]
+SystemInit                   0x1991    0x34  Code  Gb  system_LPC54606.o [1]
+UARTN                   0x2000'0028    0x28  Data  Gb  LPC546XX_uart.o [1]
+__Vectors                       0x0           --   Gb  startup_LPC54606.o [1]
+__Vectors_End                 0x124          Data  Gb  startup_LPC54606.o [1]
+__Vectors_Size {Abs}          0x124           --   Gb  startup_LPC54606.o [1]
+__aeabi_cdcmple               0xbc9          Code  Gb  DblCmpLe.o [3]
+__aeabi_d2iz                  0xb55          Code  Gb  DblToS32.o [3]
+__aeabi_dmul                  0xd01          Code  Gb  DblMul.o [3]
+__aeabi_dsub                  0xc1d          Code  Gb  DblSub.o [3]
+__aeabi_i2d                   0xbf9          Code  Gb  S32ToDbl.o [3]
+__cmain                      0x1ca1          Code  Gb  cmain.o [4]
+__exit                       0x1ce1    0x14  Code  Gb  exit.o [5]
+__iar_copy_init3             0x1c01    0x2c  Code  Gb  copy_init3.o [4]
+__iar_dadd                    0xc2d          Code  Gb  DblSub.o [3]
+__iar_data_init3             0x1c2d    0x28  Code  Gb  data_init.o [4]
+__iar_dsub                    0xea5          Code  Gb  DblAdd.o [3]
+__iar_dsubStart               0xeb7          Code  Gb  DblAdd.o [3]
+__iar_init_vfp               0x1c55          Code  Gb  fpinit_M.o [3]
+__iar_program_start          0x1d1d          Code  Gb  cstartup_M.o [4]
+__iar_zero_init3              0xb8f    0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init             0x1cbf     0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0          Data  Gb  startup_LPC54606.o [1]
+__vector_table_0x1c            0x1c          Data  Gb  startup_LPC54606.o [1]
+_call_main                   0x1cad          Code  Gb  cmain.o [4]
+_exit                        0x1cd5          Code  Gb  cexit.o [4]
+_main                        0x1cbb          Code  Gb  cmain.o [4]
+adc_convert                  0x15db    0x8a  Code  Gb  LPC546XX_adc.o [1]
+adc_delay                    0x15d1     0xa  Code  Gb  LPC546XX_adc.o [1]
+adc_init                     0x1531    0xa0  Code  Gb  LPC546XX_adc.o [1]
+adc_mux                      0x149d    0x94  Code  Gb  LPC546XX_adc.o [1]
+assert_failed                 0x6f9    0x18  Code  Gb  assert.o [1]
+debugging_information        0x1bcc    0x34  Data  Gb  assert.o [1]
+dma_reload_linked            0x1889    0x5a  Code  Lc  SEEKFREE_MT9V032.o [1]
+exit                         0x1ccf     0x4  Code  Gb  exit.o [2]
+findPllMMult                 0x1181    0x1a  Code  Lc  LPC546XX_pll.o [1]
+findPllPostDiv               0x115d    0x24  Code  Lc  LPC546XX_pll.o [1]
+findPllPreDiv                0x113b    0x22  Code  Lc  LPC546XX_pll.o [1]
+flexcomm_clk_enable           0x711    0xdc  Code  Gb  LPC546XX_flexcomm.o [1]
+flexcomm_get_clk              0x7ed     0x6  Code  Gb  LPC546XX_flexcomm.o [1]
+get_clk                      0x13fb    0x58  Code  Gb  LPC546XX_pll.o [1]
+gpio_toggle                  0x186d    0x16  Code  Gb  LPC546XX_gpio.o [1]
+image                   0x2000'0054  0x5820  Data  Gb  SEEKFREE_MT9V032.o [1]
+iocon_init                    0x695    0x52  Code  Gb  LPC546XX_iocon.o [1]
+main                         0x1cc3     0xc  Code  Gb  main.o [1]
+main_clk_mhz            0x2000'0050     0x2  Data  Gb  LPC546XX_pll.o [1]
+mt9v032_cof_uart_interrupt
+                             0x18e3    0x3a  Code  Gb  SEEKFREE_MT9V032.o [1]
+mt9v032_dma                  0x1941    0x16  Code  Gb  SEEKFREE_MT9V032.o [1]
+mt9v032_finish_flag     0x2000'5bf3     0x1  Data  Gb  SEEKFREE_MT9V032.o [1]
+mt9v032_vsync                0x191d    0x24  Code  Gb  SEEKFREE_MT9V032.o [1]
+myabs                         0x821     0x8  Code  Gb  SEEKFREE_FUN.o [1]
+number_conversion_ascii
+                              0x829    0x84  Code  Gb  SEEKFREE_PRINTF.o [1]
+pllDecodeM                   0x107b    0x68  Code  Lc  LPC546XX_pll.o [1]
+pllDecodeN                   0x1011    0x6a  Code  Lc  LPC546XX_pll.o [1]
+pllDecodeP                   0x10e3    0x58  Code  Lc  LPC546XX_pll.o [1]
+pll_init                     0x139b    0x60  Code  Gb  LPC546XX_pll.o [1]
+printf                        0x8d1   0x280  Code  Gb  SEEKFREE_PRINTF.o [1]
+printf_reverse_order          0x8ad    0x24  Code  Gb  SEEKFREE_PRINTF.o [1]
+receive                 0x2000'5bec     0x4  Data  Gb  SEEKFREE_MT9V032.o [1]
+receive_num             0x2000'5bf2     0x1  Data  Gb  SEEKFREE_MT9V032.o [1]
+s_dma_descriptor_table  0x2000'5a00   0x1e0  Data  Gb  LPC546XX_dma.o [1]
+systick_delay                0x16a9    0x32  Code  Gb  LPC546XX_systick.o [1]
+systick_test            0x2000'5be8     0x4  Data  Gb  isr.o [1]
+test                    0x2000'5be0     0x4  Data  Gb  isr.o [1]
+time                    0x2000'5bf0     0x2  Data  Gb  isr.o [1]
+tt                      0x2000'5be4     0x4  Data  Gb  isr.o [1]
+uart_init                     0x4c7   0x152  Code  Gb  LPC546XX_uart.o [1]
+uart_mux                      0x125   0x3a2  Code  Gb  LPC546XX_uart.o [1]
+uart_putbuff                  0x641    0x20  Code  Gb  LPC546XX_uart.o [1]
+uart_putchar                  0x619    0x28  Code  Gb  LPC546XX_uart.o [1]
+uart_query                    0x661    0x2a  Code  Gb  LPC546XX_uart.o [1]
+uart_receive_flag       0x2000'0052     0x1  Data  Gb  SEEKFREE_MT9V032.o [1]
+write_syspllctrl             0x131b    0x80  Code  Gb  LPC546XX_pll.o [1]
+
+
+[1] = D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+   7 354 bytes of readonly  code memory
+     642 bytes of readonly  data memory
+  31 731 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

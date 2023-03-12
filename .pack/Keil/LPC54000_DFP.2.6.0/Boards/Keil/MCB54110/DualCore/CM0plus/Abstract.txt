@@ -1,0 +1,25 @@
+The 'CM0plus Blinky' project is part of a simple DualCore example for
+NXP 'LPC54114' microcontroller using Keil MCB54110 Evaluation Board.
+Compliant to Cortex Microcontroller Software Interface Standard (CMSIS).
+
+This example demonstrates how to configure a dual core application project
+in order to use Cortex-M0+ core together with the Cortex-M4 core.
+
+Example functionality:
+ - Clock Settings:
+   - IRC     =  12 MHz
+   - CPU     = 100 MHz
+
+ - CM4 passes address of LED state variable via mailbox to CM0+
+ - CM0+ changes value of LED state variable
+
+
+The CM0plus Blinky program is available for target:
+
+  LPC54114 M0+ Flash:  configured for on-chip Flash
+                       (used for production or target debugging)
+
+
+Note:
+  CM0+ application is flashed together with CM4 application from CM4 project.
+  Debug of CM0+ application is possible after CM0+ application is started from CM4 application.

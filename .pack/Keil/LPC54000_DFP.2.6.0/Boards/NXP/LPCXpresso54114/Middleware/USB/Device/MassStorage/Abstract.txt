@@ -1,0 +1,21 @@
+This is an Mass Storage example that demonstrates Mass Storage Class (MSC)
+on USB Device.
+
+Detailed description is available on:
+www.keil.com/pack/doc/MW/USB/html/dev_msc_tutorial.html
+
+Board:                  NXP 'LPCXpresso5411x'
+Microcontroller:        NXP 'LPC54114'
+Clock Settings:         IRC                  =  12 MHz
+                        CPU                  = 100 MHz
+Storage Media (USB):    RAM memory
+
+The example demonstrates a Mass Storage device using
+RAM memory for USB connection.
+
+The program is available for target(s):
+
+  - LPC54114 Flash: Downloads to and executes from internal Flash
+
+NOTE:
+  - 3.3V power supply must be selected (with JP9)

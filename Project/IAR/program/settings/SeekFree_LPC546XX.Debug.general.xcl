@@ -1,0 +1,15 @@
+"D:\Program Files(x86)\IAR Systems\Embedded Workbench 8.32.4\arm\bin\armproc.dll" 
+
+"D:\Program Files(x86)\IAR Systems\Embedded Workbench 8.32.4\arm\bin\armJET.dll" 
+
+"D:\SmartCar\资料\逐飞\LPC54606_Library\Project\IAR\program\Debug\Exe\SeekFree_LPC546XX.out" 
+
+--plugin="D:\Program Files(x86)\IAR Systems\Embedded Workbench 8.32.4\arm\bin\armbat.dll" 
+
+--device_macro="D:\Program Files(x86)\IAR Systems\Embedded Workbench 8.32.4\arm\config\debugger\NXP\LPC5460x.dmac" 
+
+--flash_loader="D:\Program Files(x86)\IAR Systems\Embedded Workbench 8.32.4\arm\config\flashloader\NXP\FlashNXPLPC5460xM4F512K.board" 
+
+
+
+

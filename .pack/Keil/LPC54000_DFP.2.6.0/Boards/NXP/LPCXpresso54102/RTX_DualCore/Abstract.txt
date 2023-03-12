@@ -1,0 +1,22 @@
+The 'DualCore' multi project demonstrates how to configure dual core application projects
+in order to use LPC54102 M4 core together with LPC54102 M0+ core.
+
+To debug this dual-core application, you need to run two instances of uVision.
+Each instance contains a project for one of the cores and needs to be in debug mode.
+
+Example functionality (M4):
+ - Clock Settings:
+   - IRC     =  12 MHz
+   - CPU     = 100 MHz  (96MHz for chip revision 1B, 1C) 
+
+ - CM4 synchronizes via mailbox with CM0+
+ - CM4 passes LED state via mailbox to CM0+
+ - CM0+ switches LEDs according LED state
+ 
+Note:
+   CM0+ application must be build first using CM0+ project.
+   CM0+ application is flashed together with CM4 application from CM4 project.
+   CM4 application configures CM0+ stack pointer and reset vector and release CM0+ core from reset.
+
+   Please see ./CM4/Abstract.txt.
+   Please see ./CM0plus/Abstract.txt.

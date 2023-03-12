@@ -1,0 +1,27 @@
+The 'Blinky' project is a simple CMSIS RTOS based example for
+NXP 'LPC54114' microcontroller using Keil MCB54110 Evaluation Board,
+compliant to Cortex Microcontroller Software Interface Standard (CMSIS v2.0).
+
+Example functionality:
+ - Clock Settings:
+   - fro_12m  =  12.00 MHz
+   - pll_clk  = 100.00 MHz
+   - main_clk = 100.00 MHz
+
+ - LEDs are blinking as running light
+ - blinking speed depends on potentiometer position
+ - blinking is paused while holding down the USER button
+ 
+
+The Blinky program is available in different targets:
+
+  LPC54114 RAM:         configured for on-chip RAM
+                        (used for target debugging)
+
+  LPC54114 Flash:       runs from Internal Flash located on chip
+                        (used for production or target debugging)
+
+  LPC54114 SWO:         runs from Internal Flash located on chip
+                        configured for exception trace & SWO
+                        (used for production or target debugging)
+
